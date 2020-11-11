@@ -93,7 +93,7 @@ def main():
 
     # Run gtf2bed
     bed_filename = test_folder + '/' + os.path.basename(gtf).replace(gtf_extension, '.bed')
-    cmd = 'gtf2bed --gtf ' + gtf_filename  + ' --bed ' + bed_filename
+    cmd = 'gtf2bed < ' + gtf_filename  + ' > ' + bed_filename
     print('converting gtf to bed')
     if print_cmds:
         print('running command: ' + cmd)
