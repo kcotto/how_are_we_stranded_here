@@ -31,8 +31,7 @@ Installation
 ------------
 .. code-block:: console
 
-        git clone https://github.com/betsig/how_are_we_stranded_here.git
-        pip install how_are_we_stranded_here
+        pip3 install git+https://github.com/betsig/how_are_we_stranded_here.git
 
 
 Usage
