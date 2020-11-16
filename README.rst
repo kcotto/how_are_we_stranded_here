@@ -18,7 +18,7 @@ Requirements
 ------------
 how_are_we_stranded_here requires the following packages be installed:
 
-kallisto >= 0.44.0
+kallisto = 0.44.0
 
 python >= 3.6.0
 
